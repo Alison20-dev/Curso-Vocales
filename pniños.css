@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#fff8f0;
+}
+
+/* Encabezado */
+#navegacion{
+    display:flex;
+    align-items:center;
+    background-color:#dfc2c2;
+    padding:20px;
+}
+
+header{
+    width:30%;
+    text-align:center;
+}
+
+header img{
+    width:200px;
+    border-radius:15px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+}
+
+nav{
+    width:70%;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.boton{
+    background-color:#89ffe3;
+    color:black;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.boton:hover{
+    background-color:#9cb1ac;
+    transform:scale(1.05);
+}
+
+/* Bienvenida */
+.bienvenida{
+    text-align:center;
+    padding:40px;
+}
+
+.bienvenida h1{
+    color:#ff6b6b;
+}
+
+.bienvenida p{
+    font-size:20px;
+}
+
+/* Vocales */
+.vocales{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:30px;
+}
+
+.vocal{
+    width:80px;
+    height:80px;
+    background-color:#ffd166;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+}
+
+/* Actividades */
+.actividades{
+    padding:40px;
+    text-align:center;
+}
+
+.tarjetas{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.tarjeta{
+    width:250px;
+    background-color:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Pie de página */
+footer{
+    background-color:#4db6ac;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+input,
+textarea{
+    width:300px;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+iframe{
+    border-radius:15px;
+    margin-top:20px;
+}
